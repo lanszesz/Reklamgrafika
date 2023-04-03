@@ -64,3 +64,7 @@ h6 {
 .secondary-button {
     @apply bg-transparent border border-2 border-ma-red font-bold font-roboto h-12 leading-5 rounded-md text-[20px] text-ma-clicked tracking-[-0.4px] w-[200px] active:bg-transparent active:border-ma-clicked active:text-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-transparent hover:border-ma-hover hover:text-ma-hover;
 }
+
+.navigation-button {
+    @apply w-10 h-10 bg-[#FCFCFC];
+}

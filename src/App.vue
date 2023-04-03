@@ -1,4 +1,7 @@
 <template>
+
+  <SvgComponent></SvgComponent>
+
   <div>
     <p>{{ $t('hello') }}, {{ $t('world') }}!</p>
   </div>
@@ -11,15 +14,27 @@
   <button class="secondary-button">
     MÉGSEM
   </button>
+  <button class="navigation-button">
+    <svg class="h-10 w-10 text-ma-dark">
+      <use xlink:href="#navigate-back"></use>
+    </svg>
+  </button>
+  <button class="navigation-button">
+    <svg class="h-10 w-10 text-ma-dark">
+      <use xlink:href="#navigate-forward"></use>
+    </svg>
+  </button>
   <h1>Hello World!</h1>
   <LanguageSwitchComponent></LanguageSwitchComponent>
 </template>
 
 <script>
 import LanguageSwitchComponent from "./components/LanguageSwitchComponent.vue";
+import SvgComponent from "./components/SvgComponent.vue";
 
 export default {
   components: {
+    SvgComponent,
     LanguageSwitchComponent
   },
   methods: {
