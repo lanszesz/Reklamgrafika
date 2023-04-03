@@ -1,0 +1,66 @@
+@import 'assets/fonts/fira-sans.css';
+@import 'assets/fonts/roboto.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply font-bold leading-[90px] text-[80px] text-ma-dark tracking-[-1.6px];
+}
+
+h2 {
+    @apply font-bold leading-[60px] text-[50px] text-ma-un1 tracking-[-1px];
+}
+
+h3 {
+    @apply font-bold leading-[30px] text-[30px] text-ma-dark tracking-[-0.6px];
+}
+
+h4 {
+    @apply font-bold leading-[25px] text-[25px] text-ma-dark tracking-[-0.5px];
+}
+
+h5 {
+    @apply font-bold leading-5 text-[20px] text-ma-dark tracking-[-0.4px];
+}
+
+h6 {
+    @apply font-bold leading-4 text-[16px] text-ma-dark tracking-[-0.16px];
+}
+
+.sh1 {
+    @apply font-bold leading-7 text-[24px] text-ma-dark tracking-[0.48px];
+}
+
+.sh2 {
+    @apply font-bold leading-6 text-[20px] text-ma-dark tracking-[0.4px];
+}
+
+.sh3 {
+    @apply font-bold leading-4 text-[14px] text-ma-dark tracking-normal;
+}
+
+.paragraph-display {
+    @apply font-normal leading-[40px] text-[28px] text-ma-dark tracking-[0.28px];
+}
+
+.p-01 {
+    @apply font-normal leading-[32px] text-[24px] text-ma-dark tracking-[0.24px];
+}
+
+.p-02 {
+    @apply font-normal leading-[28px] text-[18px] text-ma-dark tracking-normal;
+}
+
+.p-03 {
+    @apply font-medium leading-[20px] text-[14px] text-ma-dark tracking-normal;
+}
+
+.primary-button {
+    @apply bg-ma-red font-bold font-roboto h-12 leading-5 rounded-md text-[20px] text-white tracking-[-0.4px] w-[200px] active:bg-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-ma-hover;
+}
+
+.secondary-button {
+    @apply bg-transparent border border-2 border-ma-red font-bold font-roboto h-12 leading-5 rounded-md text-[20px] text-ma-clicked tracking-[-0.4px] w-[200px] active:bg-transparent active:border-ma-clicked active:text-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-transparent hover:border-ma-hover hover:text-ma-hover;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "FiraSans";
+    font-style: normal;
+    font-weight: 700;
+    src: local('FiraSans-Bold'),
+    url("FiraSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "FiraSans";
+    font-style: normal;
+    font-weight: 500;
+    src: local('FiraSans-Medium'),
+    url("FiraSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "FiraSans";
+    font-style: normal;
+    font-weight: 400;
+    src: local('FiraSans-Regular'),
+    url("FiraSans-Regular.ttf");
+}
