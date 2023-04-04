@@ -1,4 +1,6 @@
 export default {
-    hello: 'Bună ziua',
-    world: 'Lume'
+    navbar: {
+        aboutUs: 'Despre noi',
+        products: 'Produsele'
+    },
 }

@@ -58,13 +58,22 @@ h6 {
 }
 
 .primary-button {
-    @apply bg-ma-red font-bold font-roboto h-12 leading-5 rounded-md text-[20px] text-white tracking-[-0.4px] w-[200px] active:bg-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-ma-hover;
+    @apply bg-ma-red font-bold font-roboto h-12 leading-5 p-[6px] rounded-md text-[20px] text-white tracking-[-0.4px] w-[200px] active:bg-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-ma-hover;
 }
 
 .secondary-button {
-    @apply bg-transparent border border-2 border-ma-red font-bold font-roboto h-12 leading-5 rounded-md text-[20px] text-ma-clicked tracking-[-0.4px] w-[200px] active:bg-transparent active:border-ma-clicked active:text-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-transparent hover:border-ma-hover hover:text-ma-hover;
+    @apply bg-transparent border border-2 border-ma-red font-bold font-roboto h-12 leading-5 p-[6px] rounded-md text-[20px] text-ma-clicked tracking-[-0.4px] w-[200px] active:bg-transparent active:border-ma-clicked active:text-ma-clicked disabled:bg-ma-disabled disabled:text-ma-light hover:bg-transparent hover:border-ma-hover hover:text-ma-hover;
 }
 
 .navigation-button {
-    @apply w-10 h-10 bg-[#FCFCFC];
+    @apply bg-[#FCFCFC] flex h-10 items-center justify-center p-[3px] rounded-[3px] shadow-ma-sm text-ma-dark w-10 disabled:bg-ma-disabled disabled:shadow-none disabled:text-ma-light hover:bg-white hover:text-ma-red;
+}
+
+/* SVG */
+.a {
+    fill: none;
+}
+
+.b {
+    fill: #e61437;
 }

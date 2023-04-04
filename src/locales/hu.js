@@ -1,4 +1,6 @@
 export default {
-    hello: 'Helló',
-    world: 'Világ'
+    navbar: {
+        aboutUs: 'Rólunk',
+        products: 'Termékeink'
+    },
 }

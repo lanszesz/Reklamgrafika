@@ -28,6 +28,11 @@ export default {
                 'ma-bg-01': '#F0F3F5',
                 'ma-un1': '#1C3543',
                 'ma-un2': '#0F2733',
+            },
+            boxShadow: {
+                'ma-nav': '0px 2px 10px #7A8F9933',
+                'ma-sm': '0px 1px 2px #677D8433',
+                'ma-big': '0px 3px 6px #00000029',
             }
         }
     },
