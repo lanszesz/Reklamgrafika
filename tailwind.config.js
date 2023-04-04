@@ -8,11 +8,11 @@ export default {
     theme: {
         fontFamily: {
             'sans': ['FiraSans', 'Roboto', 'sans-serif'],
-            'roboto': ['Roboto', 'sans-serif'],
         },
         extend: {
             fontFamily: {
-                'fira-sans': ['FiraSans', 'sans-serif']
+                'fira-sans': ['FiraSans', 'sans-serif'],
+                'roboto': ['Roboto', 'sans-serif']
             },
             width: {
                 '50': '200px'
