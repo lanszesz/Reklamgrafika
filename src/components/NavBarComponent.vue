@@ -14,7 +14,7 @@
       <router-link :to="{ name: 'Products'}">{{ $t('navbar.products') }}</router-link>
     </h5>
 
-    <language-selector-component></language-selector-component>
+    <language-selector-component class="absolute right-[80px]"></language-selector-component>
   </nav>
 </template>
 
