@@ -3,9 +3,8 @@ export default {
         aboutUs: 'Rólunk',
         products: 'Termékeink'
     },
+    guaranteeMsg:  'Helyi alapanyagból. Helyi erőforrásokkal. Helyi munkaerővel. Helyieknek.',
     footer: {
-        text: 'Helyi alapanyagból. Helyi erőforrásokkal. Helyi munkaerővel. Helyieknek.',
-
         address: 'Cím:',
         addressV: 'Madéfalva 106, 537295, HR.',
         phone: 'Telefon:',

@@ -1,5 +1,5 @@
 <template>
-  <footer class="pt-[80px] pb-[60px] px-[20px] bg-ma-dark mt-auto flex flex-col gap-10 justify-center items-center">
+  <footer class="pt-[80px] pb-[60px] px-[20px] bg-ma-dark flex flex-col gap-10 justify-center items-center">
     <svg class="w-[150px] h-[78px]">
       <use xlink:href="#logo-small"></use>
     </svg>

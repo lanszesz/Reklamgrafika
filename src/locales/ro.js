@@ -3,9 +3,8 @@ export default {
         aboutUs: 'Despre noi',
         products: 'Produsele'
     },
+    guaranteeMsg:  'Realizat din ingrediente locale. Cu resurse locale. Cu forță de muncă locală. Pentru localnici.',
     footer: {
-        text: 'Realizat din ingrediente locale. Cu resurse locale. Cu forță de muncă locală. Pentru localnici.',
-
         address: 'Adresă:',
         addressV: 'Siculeni 106, 537295, HR.',
         phone: 'Telefon:',
