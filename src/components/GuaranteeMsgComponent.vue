@@ -11,7 +11,7 @@
 
       <div class="border border-2 border-ma-dark h-[70px] p-2 rounded-[10px] sm:shrink-0 w-[320px]">
         <div class="bg-ma-red flex h-full items-center justify-center px-2 rounded-[5px]">
-          <p class="font-bold leading-[25px] text-[25px] sm:leading-[30px] sm:text-[30px]">Garantálja</p>
+          <p class="font-bold leading-[25px] text-[25px] sm:leading-[30px] sm:text-[30px]">{{ $t('guaranteeMsg.guarantee') }}</p>
         </div>
       </div>
 
@@ -22,7 +22,7 @@
       <div class="line"></div>
     </div>
 
-    <p class="font-bold leading-[20px] text-[18px] text-ma-dark tracking-[1.1px] sm:leading-[25px] sm:text-[22px]">{{ $t('guaranteeMsg') }}</p>
+    <p class="font-bold leading-[20px] text-[18px] text-ma-dark tracking-[1.1px] sm:leading-[25px] sm:text-[22px]">{{ $t('guaranteeMsg.guaranteeMsg') }}</p>
   </div>
 </template>
 
