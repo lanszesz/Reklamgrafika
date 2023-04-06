@@ -6,55 +6,55 @@
 @tailwind utilities;
 
 h1 {
-    @apply font-bold leading-[90px] text-[80px] text-ma-dark tracking-[-1.6px];
+    @apply font-bold leading-[90px] text-[80px] tracking-[-1.6px];
 }
 
 h2 {
-    @apply font-bold leading-[60px] text-[50px] text-ma-un1 tracking-[-1px];
+    @apply font-bold leading-[60px] text-[50px] tracking-[-1px];
 }
 
 h3 {
-    @apply font-bold leading-[30px] text-[30px] text-ma-dark tracking-[-0.6px];
+    @apply font-bold leading-[30px] text-[30px] tracking-[-0.6px];
 }
 
 h4 {
-    @apply font-bold leading-[25px] text-[25px] text-ma-dark tracking-[-0.5px];
+    @apply font-bold leading-[25px] text-[25px] tracking-[-0.5px];
 }
 
 h5 {
-    @apply font-bold leading-5 text-[20px] text-ma-dark tracking-[-0.4px];
+    @apply font-bold leading-5 text-[20px] tracking-[-0.4px];
 }
 
 h6 {
-    @apply font-bold leading-4 text-[16px] text-ma-dark tracking-[-0.16px];
+    @apply font-bold leading-4 text-[16px] tracking-[-0.16px];
 }
 
 .sh1 {
-    @apply font-bold leading-7 text-[24px] text-ma-dark tracking-[0.48px];
+    @apply font-bold leading-7 text-[24px] tracking-[0.48px];
 }
 
 .sh2 {
-    @apply font-bold leading-6 text-[20px] text-ma-dark tracking-[0.4px];
+    @apply font-bold leading-6 text-[20px] tracking-[0.4px];
 }
 
 .sh3 {
-    @apply font-bold leading-4 text-[14px] text-ma-dark tracking-normal;
+    @apply font-bold leading-4 text-[14px] tracking-normal;
 }
 
 .paragraph-display {
-    @apply font-normal leading-[40px] text-[28px] text-ma-dark tracking-[0.28px];
+    @apply font-normal leading-[40px] text-[28px] tracking-[0.28px];
 }
 
 .p-01 {
-    @apply font-normal leading-[32px] text-[24px] text-ma-dark tracking-[0.24px];
+    @apply font-normal leading-[32px] text-[24px] tracking-[0.24px];
 }
 
 .p-02 {
-    @apply font-normal leading-[28px] text-[18px] text-ma-dark tracking-normal;
+    @apply font-normal leading-[28px] text-[18px] tracking-normal;
 }
 
 .p-03 {
-    @apply font-medium leading-[20px] text-[14px] text-ma-dark tracking-normal;
+    @apply font-medium leading-[20px] text-[14px] tracking-normal;
 }
 
 .primary-button {
