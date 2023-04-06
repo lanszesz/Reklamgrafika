@@ -1,6 +1,6 @@
 <template>
   <div class="flex text-center justify-center items-center py-[80px]">
-    <div class="flex flex-col justify-center items-center w-[1100px] gap-10">
+    <div class="flex flex-col justify-center items-center w-[1140px] gap-10">
       <svg class="h-[70px] hidden shrink-0 text-ma-red w-[150px] sm:block">
         <use xlink:href="#leaves-1"></use>
       </svg>
