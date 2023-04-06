@@ -40,5 +40,9 @@ export default {
     textComponent3: {
         header: 'Jézus Szíve tiszteletére',
         text: 'A település fontosabb részei Patakelve, Alszeg, Vargaszeg, Állomás környéke, és a Főút mellett. A falu plébánosa Bartalus Jakab Zoltán. A „Zöld Péter” Általános Iskola igazgatója Máté Sándor. \n\n Az 1764. évi mészárlás helyén 1905. október 8-án avatták fel az emlékművet Köllő Miklós alkotását, a helyén egykor állt sírkereszt a csíkszentmihályi templom kertjében áll. Római katolikus temploma 1913-14-ben épült Jézus Szíve tiszteletére.'
+    },
+    cookieConsent: {
+        text: 'Weboldalunk sütiket használ a jobb felhasználói élmény érdekében. Elfogadod a sütik használatát?',
+        button: 'Elfogadom'
     }
 }
