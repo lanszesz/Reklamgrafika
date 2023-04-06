@@ -1,6 +1,6 @@
 <template>
   <div>
-    <image-text-component :direction="false" imageSrc="src/assets/img/alma-medium.jpg">
+    <image-text-component :direction="false" imageSrc="/img/alma-medium.jpg">
       <template v-slot:header>{{ $t('imageText1.header') }}</template>
       <template v-slot:text>{{ $t('imageText1.text') }}</template>
     </image-text-component>
@@ -12,7 +12,7 @@
 
     <guarantee-msg-component></guarantee-msg-component>
 
-    <image-text-component :direction="true" imageSrc="src/assets/img/alma2-medium.jpg">
+    <image-text-component :direction="true" imageSrc="/img/alma2-medium.jpg">
       <template v-slot:header>{{ $t('imageText2.header') }}</template>
       <template v-slot:text>{{ $t('imageText2.text') }}</template>
     </image-text-component>
@@ -22,7 +22,7 @@
       <template v-slot:text>{{ $t('textComponent2.text') }}</template>
     </text-component>
 
-    <image-text-component :direction="false" imageSrc="src/assets/img/alma3-medium.jpg">
+    <image-text-component :direction="false" imageSrc="/img/alma3-medium.jpg">
       <template v-slot:header>{{ $t('imageText3.header') }}</template>
       <template v-slot:text>{{ $t('imageText3.text') }}</template>
     </image-text-component>

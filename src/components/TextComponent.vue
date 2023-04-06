@@ -7,10 +7,9 @@
       <h2 class="text-ma-red">
         <slot name="header"></slot>
       </h2>
-      <p class="paragraph-display whitespace-pre-line">
+      <p class="paragraph-display">
         <slot name="text"></slot>
       </p>
-
       <div class="rounded-[50%] bg-ma-red w-3 h-3 mt-2.5"></div>
     </div>
   </div>

@@ -5,7 +5,7 @@
     <div class="flex items-center justify-center">
       <div class="line"></div>
 
-      <svg>
+      <svg class="svg-leaves">
         <use xlink:href="#leaves-1"></use>
       </svg>
 
@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <svg>
+      <svg class="svg-leaves">
         <use xlink:href="#leaves-2"></use>
       </svg>
 
@@ -27,10 +27,6 @@
 </template>
 
 <style scoped>
-svg {
-  @apply h-[70px] hidden shrink-0 text-ma-red w-[150px] sm:block;
-}
-
 .line {
   @apply bg-ma-dark hidden max-h-[4px] p-[2px] rounded-[10px] shrink w-[264px] md:block;
 }
