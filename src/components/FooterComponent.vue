@@ -1,6 +1,6 @@
 <template>
-  <footer class="pt-[80px] pb-[60px] px-[20px] bg-ma-dark flex flex-col gap-10 justify-center items-center">
-    <svg class="w-[150px] h-[78px]">
+  <footer class="bg-ma-dark flex flex-col gap-10 items-center justify-center pb-[60px] pt-[80px] px-[20px]">
+    <svg class="h-[78px] w-[150px]">
       <use xlink:href="#logo-small"></use>
     </svg>
 
@@ -19,14 +19,16 @@
       </p>
     </div>
 
-    <div class="flex text-ma-red gap-6">
-      <svg class="h-[30px] w-[30px]">
-        <use xlink:href="#facebook"></use>
-      </svg>
-      <svg class="h-[30px] w-[30px]">
+    <div class="flex gap-6 text-ma-red">
+      <a href="https://www.facebook.com/profile.php?id=100081250688765" target="_blank">
+        <svg class="h-[30px] w-[30px]">
+          <use xlink:href="#facebook"></use>
+        </svg>
+      </a>
+      <svg class="cursor-pointer h-[30px] w-[30px]">
         <use xlink:href="#twitter"></use>
       </svg>
-      <svg class="h-[30px] w-[30px]">
+      <svg class="cursor-pointer h-[30px] w-[30px]">
         <use xlink:href="#email"></use>
       </svg>
     </div>
@@ -35,6 +37,6 @@
 
 <style scoped>
 * {
-  @apply leading-[20px] text-[14px] text-center text-white tracking-normal font-roboto;
+  @apply font-roboto leading-[20px] text-[14px] text-center text-white tracking-normal;
 }
 </style>

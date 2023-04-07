@@ -41,6 +41,8 @@ export default {
         '/img/alma-medium.jpg',
         '/img/alma2-medium.jpg',
         '/img/alma3-medium.jpg',
+        '/img/alma4-medium.jpg',
+        '/img/alma5-medium.jpg',
       ]
     }
   }

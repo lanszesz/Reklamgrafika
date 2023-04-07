@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center px-[20px] py-[150px] text-center">
+  <div class="flex items-center justify-center px-[20px] py-[150px] text-center" ref="textComponent3">
     <div class="flex flex-col gap-10 items-center justify-center w-[1140px]">
       <svg class="h-[70px] hidden shrink-0 text-ma-red w-[150px] sm:block">
         <use xlink:href="#leaves-1"></use>

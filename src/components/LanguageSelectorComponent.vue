@@ -41,15 +41,15 @@ export default {
 
 <style scoped>
 .language-selector-container {
-  @apply p-[6px] bg-[#FCFCFC] shadow-ma-big rounded-md w-fit;
+  @apply bg-[#FCFCFC] p-[6px] rounded-md shadow-ma-big w-fit;
 }
 
 .language-selector-button-container {
-  @apply bg-ma-bg-01 rounded-[3px] w-[104px] flex justify-between;
+  @apply bg-ma-bg-01 flex justify-between rounded-[3px] w-[104px];
 }
 
 .language-selector-button {
-  @apply text-[16px] font-bold rounded-[3px] w-[46px] h-[46px] tracking-[-0.32px] leading-5 bg-ma-bg-01 text-ma-dark p-[3px];
+  @apply bg-ma-bg-01 font-bold h-[46px] leading-5 p-[3px] rounded-[3px] text-[16px] text-ma-dark tracking-[-0.32px] w-[46px];
 }
 
 .language-selector-button-active {

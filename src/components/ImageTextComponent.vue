@@ -1,34 +1,18 @@
 <template>
-  <!--  <div class="flex justify-center bg-ma-dark">
-      <div class="flex flex-col items-center lg:flex-row gap-12 max-w-[1980px] w-full" :class="{'flex-row-reverse' : direction}">
-        <div class="flex flex-1 flex-basis-0 flex-shrink-1">
-          <img :src="imageSrc" class="w-full object-cover" alt="Alma">
-        </div>
-        <div class="flex flex-col text-white text-center items-center justify-center max-w-[570px] gap-5 text-left py-[220px]">
-          <h2>
-            <slot name="header"></slot>
-          </h2>
-          <p class="sh1 text-ma-red">
-            <slot name="text"></slot>
-          </p>
-          <button class="primary-button mt-[80px]">TOVÁBB</button>
-        </div>
-      </div>
-    </div>-->
+  <p v-if="false">comment: THIS IS BAD, I HATE THIS PART</p>
 
-  <div class="flex justify-center bg-ma-dark h-[810px] max-h-[810px]">
-    <div class="flex flex-col items-center lg:flex-row gap-12 max-w-[1980px] w-full" :class="{'flex-row-reverse' : direction}">
-      <div class="flex flex-1 flex-basis-0 overflow-clip h-full flex-shrink-1 justify-center items-center max-w-[900px]">
-        <img :src="imageSrc" class="w-full  object-contain" alt="Alma">
-      </div>
-      <div class="flex flex-col text-white text-center items-center justify-center max-w-[570px] gap-5 text-left">
+  <div class="bg-ma-dark flex justify-center overflow-clip xl:max-h-[810px]">
+    <div class="flex flex-col gap-10 items-center max-w-[1920px] min-w-screen w-screen xl:flex-row" :class="{'xl:flex-row-reverse' : direction}">
+      <img :src="imageSrc" class="flex-grow max-h-[500px] object-contain 2xl:max-w-[900px] xl:max-h-[2000px] xl:max-w-[700px]" alt="Alma">
+      <div class="flex flex-1 flex-basis-0 flex-col flex-shrink-1 gap-5 max-w-[570px] p-2 pb-16 place-items-center text-center text-white xl:pb-0 xl:place-items-start xl:text-left"
+           :class="{'xl:place-items-end xl:text-right' : direction}">
         <h2>
           <slot name="header"></slot>
         </h2>
         <p class="sh1 text-ma-red">
           <slot name="text"></slot>
         </p>
-        <button class="primary-button mt-[80px]">TOVÁBB</button>
+        <button @click="$emit('scroll')" class="primary-button mt-[80px]">TOVÁBB</button>
       </div>
     </div>
   </div>
@@ -36,6 +20,7 @@
 
 <script>
 export default {
+  emits: ['scroll'],
   props: {
     direction: Boolean,
     imageSrc: String
