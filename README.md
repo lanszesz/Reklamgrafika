@@ -1,3 +1,11 @@
+# Getting Started
+The Vue.js project has been precompiled, and all the necessary files, including the optimized and minified version of the application, are available in the dist folder for direct deployment to your server or hosting environment.
+
+# Commands
+npm install - run this command after downloading the project to install the required packages \
+npm run dev - start the development server for the project \
+npm run build - build the project for production
+
 # Notes
 Please note that I used VueJS client side routing, so reloading on /products will most certainly result in a 404. Configure your server!
 
