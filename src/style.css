@@ -6,11 +6,11 @@
 @tailwind utilities;
 
 h1 {
-    @apply font-bold leading-[90px] text-[80px] tracking-[-1.6px];
+    @apply font-bold leading-[90px] sm:text-[80px] text-[60px] tracking-[-1.6px];
 }
 
 h2 {
-    @apply font-bold leading-[60px] text-[50px] tracking-[-1px];
+    @apply font-bold leading-[60px] text-[36px] sm:text-[50px] tracking-[-1px];
 }
 
 h3 {
@@ -42,11 +42,11 @@ h6 {
 }
 
 .paragraph-display {
-    @apply font-normal leading-[40px] text-[28px] tracking-[0.28px] whitespace-pre-line;
+    @apply font-normal leading-[40px] text-[24px] sm:text-[28px] tracking-[0.28px] whitespace-pre-line;
 }
 
 .p-01 {
-    @apply font-normal leading-[40px] text-[24px] tracking-[0.24px] whitespace-pre-line;
+    @apply font-normal leading-[40px] text-[20px] sm:text-[24px] tracking-[0.24px] whitespace-pre-line;
 }
 
 .p-02 {

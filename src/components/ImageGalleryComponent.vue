@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between items-center flex-grow">
-    <button @click="previousImage" class="navigation-button" :disabled="currentIndex === 0">
+    <button @click="previousImage" class="navigation-button relative right-[-5%] z-50 lg:static" :disabled="currentIndex === 0">
       <svg>
         <use xlink:href="#navigate-back"></use>
       </svg>
@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <button @click="nextImage" class="navigation-button" :disabled="currentIndex === images.length - 1">
+    <button @click="nextImage" class="left-[-5%] navigation-button relative z-50 lg:static" :disabled="currentIndex === images.length - 1">
       <svg>
         <use xlink:href="#navigate-forward"></use>
       </svg>
@@ -28,7 +28,6 @@
 
 <script>
 export default {
-  name: 'ImageGalleryComponent',
   props: {
     images: Array
   },

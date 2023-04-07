@@ -40,7 +40,6 @@ import GuaranteeMsgComponent from "../components/GuaranteeMsgComponent.vue";
 import TextComponent from "../components/TextComponent.vue";
 
 export default {
-  name: "HomeView",
   components: {
     GuaranteeMsgComponent,
     ImageTextComponent,

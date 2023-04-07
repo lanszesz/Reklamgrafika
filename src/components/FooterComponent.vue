@@ -33,12 +33,6 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: "FooterComponent"
-}
-</script>
-
 <style scoped>
 * {
   @apply leading-[20px] text-[14px] text-center text-white tracking-normal font-roboto;
