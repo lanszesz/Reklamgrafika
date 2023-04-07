@@ -10,8 +10,5 @@ export default defineConfig({
         alias: [{
             find: 'vue-i18n', replacement: 'vue-i18n/dist/vue-i18n.cjs.js',
         }]
-    },
-    build: {
-        outDir: './'
     }
 })
