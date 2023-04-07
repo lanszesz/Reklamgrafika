@@ -12,7 +12,7 @@ Please note that I used VueJS client side routing, so reloading on /products wil
 # Sources
 
 XD: https://xd.adobe.com/view/4d66d44a-7bef-47b2-8c19-326f3d9c1bc7-1835/ \
-Website: https://www.madefalvigyumolcs.ro/
+Website: https://www.madefalvigyumolcs.ro/ \
 Images: https://unsplash.com/ (more details in the images folder src.txt)
 
 # Vue 3 + Vite
