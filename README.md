@@ -1,3 +1,6 @@
+# Getting Started
+The Vue.js project has been precompiled, and contains all the necessary files, including the optimized and minified version of the application.
+
 # Commands
 npm install - run this command after downloading the project to install the required packages \
 npm run dev - start the development server for the project \
