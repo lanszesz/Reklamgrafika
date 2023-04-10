@@ -1,6 +1,6 @@
 <template>
   <!--desktop-->
-  <nav class="bg-white gap-10 hidden items-center justify-start  p-6 shadow-ma-nav lg:justify-between md:flex">
+  <nav class="bg-white gap-10 hidden items-center justify-start p-6 shadow-ma-nav lg:justify-between md:flex">
     <h5 class="flex flex-row-reverse lg:flex-1 lg:flex-basis-0 lg:flex-shrink-1 lg:order-none order-2">
       <router-link :to="{ name: 'Home'}">{{ $t('navbar.aboutUs') }}</router-link>
     </h5>

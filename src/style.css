@@ -6,11 +6,11 @@
 @tailwind utilities;
 
 h1 {
-    @apply font-bold leading-[90px] sm:text-[80px] text-[60px] tracking-[-1.6px];
+    @apply font-bold leading-[90px] text-[60px] tracking-[-1.6px] sm:text-[80px];
 }
 
 h2 {
-    @apply font-bold leading-[60px] text-[36px] sm:text-[50px] tracking-[-1px];
+    @apply font-bold leading-[43px] text-[36px] tracking-[-1px] sm:leading-[60px] sm:text-[50px];
 }
 
 h3 {

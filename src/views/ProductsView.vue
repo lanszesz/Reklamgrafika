@@ -1,9 +1,26 @@
 <template>
   <div class="flex flex-col">
-    <div class="bg-ma-light flex justify-center pb-[240px] pt-[120px]">
-      <div class="w-[1100px]">
-        <image-gallery-component :images="galleryImages"></image-gallery-component>
-      </div>
+    <div class="bg-ma-light flex justify-center pb-[240px] pt-[120px] px-[16px]">
+      <Splide :has-track="false" :options="splideOptions" aria-label="My Favorite Images" class="relative">
+        <SplideTrack>
+          <SplideSlide v-for="(image, index) in galleryImages" :key="index">
+            <img :src="image" alt="Sample 1">
+          </SplideSlide>
+        </SplideTrack>
+
+        <div class="splide__arrows hidden lg:block">
+          <button class="splide__arrow splide__arrow--prev navigation-button">
+            <svg>
+              <use xlink:href="#navigate-forward"></use>
+            </svg>
+          </button>
+          <button class="splide__arrow splide__arrow--next navigation-button">
+            <svg>
+              <use xlink:href="#navigate-forward"></use>
+            </svg>
+          </button>
+        </div>
+      </Splide>
     </div>
 
     <div class="flex justify-center px-4">
@@ -30,10 +47,14 @@
 
 <script>
 import ImageGalleryComponent from "../components/ImageGalleryComponent.vue";
+import {Splide, SplideSlide, SplideTrack} from "@splidejs/vue-splide";
 
 export default {
   components: {
-    ImageGalleryComponent
+    ImageGalleryComponent,
+    Splide,
+    SplideTrack,
+    SplideSlide,
   },
   data() {
     return {
@@ -43,7 +64,16 @@ export default {
         '/img/alma3-medium.jpg',
         '/img/alma4-medium.jpg',
         '/img/alma5-medium.jpg',
-      ]
+      ],
+      splideOptions: {
+        rewind: true,
+        height: 600,
+        width: 900,
+        autoplay: true,
+        interval: 5000,
+        rewindByDrag: true,
+        preloadPages: 3
+      }
     }
   }
 };
