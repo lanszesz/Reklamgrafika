@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col">
     <div class="bg-ma-light flex justify-center pb-[240px] pt-[120px] px-[16px]">
-      <Splide :has-track="false" :options="splideOptions" aria-label="My Favorite Images" class="relative">
+      <Splide :has-track="false" :options="splideOptions" class="relative">
         <SplideTrack>
           <SplideSlide v-for="(image, index) in galleryImages" :key="index">
-            <img :src="image" alt="Sample 1">
+            <img :src="image" alt="Kép egy almáról">
           </SplideSlide>
         </SplideTrack>
 
@@ -46,12 +46,11 @@
 </template>
 
 <script>
-import ImageGalleryComponent from "../components/ImageGalleryComponent.vue";
 import {Splide, SplideSlide, SplideTrack} from "@splidejs/vue-splide";
+import '../assets/css/customSplide.css';
 
 export default {
   components: {
-    ImageGalleryComponent,
     Splide,
     SplideTrack,
     SplideSlide,
